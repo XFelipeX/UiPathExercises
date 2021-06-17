@@ -1,0 +1,139 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="678,1559.33333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="29">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="23">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,1494.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: DoubleUI" sap:VirtualizedContainerService.HintSize="434,1402.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="376,1108" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="TransactionNumber" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Cash In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,230" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="1000">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="499, 252, 180, 35" ElementType="InputBox" FriendlyName="'editable text cashintb'" FullSelectorArgument="&lt;ctrl automationid='cashintb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALgAAAAnCAYAAAC8A4JRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACxSURBVHhe7dyxDcJAAARB+m8FEVEHSDRhHH0Lj5yQGJx7NSNdBxvfZYwxzaoTuKX3Dfx6u5tl9jPwx/M1l/dqdtptDf8NfFnWCWe2NSxwsgROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAidN4KQdBu4f3M6+w39ws8p2gZsVJ3ALb8wPsbL+C1KZQu8AAAAASUVORK5CYII=" InformativeScreenshot="a757a3dd6c6ba74ba392b8c792025a5e.png" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="388, 248, 87, 39" ElementType="Text" FriendlyName="'Cash In'" FullSelectorArgument="&lt;ctrl name='Cash In' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cash In' role='text' automationid='' check:text='Cash In' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFsAAAArCAYAAAAXFPRYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARCSURBVGhD7Zi/ayJpGMenmsZyGpnGIoQU0+RAEBtzlUxxCweZBZsVwrAQlG0skmu2SLbYYorAeYVsYRHI3lqcycIGRNhwkFtWkOTICUHBFC6HMI3/wvfed+adcUYnamR9C+8tPhDf551fn/d9n/d5I41GIwj4IGRzRMjmiJDNESGbI0I2R4RsjgjZHBGyOSJkc0TI5oiQzREhmyNLybZ716geGcgkFMiSBIkQi29DL5bR7NmR16yEuuk8O2m1o+OL0raQpN+RtNCOin8nnijbRqvyMxIyFSxDSWRgFAooFPLQNSZe1lC67EdcuwLWWXb7JO0KVXOo3gwn4jZ6tX13IOQ0TtrB2IpYW9mdCrJMpNV6LFWQmf826QiQc2cYRPb5jqyr7LblSlReXcKOiPsMzvAinsC2/iuug+12D83yXijPy0oCmb2IPO/1jcecfl7K2is30bMD/XzZLfSaFp77qUyBph+idrfg/hEpuw6Ttpl1skd9xJGuQfHSp6bjsHY320MEC8ruopJ1H7R/ERWfg92ClZYdMbFNHXknzxtIKW6bpJbQ8CX2UTdV/6Mm+6r7F+MVw2QriQRitH/KIH0LMH5ggyTv4rTv3XcGs2Q/M2GqtABw96e8vkmeRV0oMOuD8H3msKDsP/F6gz4gCWuJXDw4yzkzTiWzpB+K9XG6SyUGBvHvE6RJX3n3NNzXJu+wFUN8o4g//mVtTLYkqTBrvcBM66OWV5xYttId3+MxZskmTL53v5aHQmPZCrqB9nksKNt78HKyPx1sIB6LvtZLT2adtfkf/gZfhuG+U3iyycBM7Q9PyeczZWdR6Qb6BmNPzPELym7h7TZ98HKyfexv6N3f4ur8A6rWAVmSXh4MyB61ccJSDs29iYyBA+t3XP3zbTpHemmk1Ai3B2IySTtTsUlmyVZIigv2DcZWI3tAljuVsmzOvkOtmPLFesiKhhTZ1OjfY9mE4Q3eFzNkNUz2T6EY3JhmzV5v1pMUMBWbZJbsSKErlT1Ct5J1Xn5uNTLqoPxTnFQjL1H9Sn8PcLFPNzyS+zKH+O38Crf393hgKWIqjYQY4uFrw1kFRsqrYlSUGqzKWFfZtKTLOXU2yWGdiDjDbpSg0hdRXuHSqTDYi/m/g9ik8nBThie7887ABin5dk+nd/pO+cew3LWVTZh7gmweY8dZ+jKR5R3Z2YtJz1ANlWH0xGm6A0PwZ/Zfx9hyPmRygxzi8y9bzr1zZ2wg1lk2Lak+H++wOjNcB48PKzHsWF8w9K8ZpxEptgk9z/6XsklrYRmaRgUGhT3Snx1Y5LSFlrdC1lu2y/DmPY6MjLPcnQ8iuKdBC+dTM55AN8hDHZp3iGEnvOo1qY3Zh4aP92RQJ06b9FCxZ53jJjjb/w+yBcshZHNEyOaIkM0RIZsjQjZHhGyOCNkcEbI5ImRzRMjmiJDNESGbI0I2R4RsbozwH0KWsNxHORuXAAAAAElFTkSuQmCC" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,230" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="200">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="499, 311, 180, 34" ElementType="InputBox" FriendlyName="'editable text onustb'" FullSelectorArgument="&lt;ctrl automationid='onustb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='onustb' role='editable text' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALgAAAAmCAYAAAB3X1H0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACvSURBVHhe7dyxDcJAAARB+m8FEVEHSDRhHH0Lj5yQGJx7NSNdBxvfZYwxzaoTuKX3Dfx6u5tl9jPwx/M1l/dqdtptDf8NfFnWCWe2NSxwsgROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAidN4KQJnDSBkyZw0gROmsBJEzhpAiftMHD3yXb2Hd4nm1W2C9ysOIFbeGN+AJ+xJA/fkSDlAAAAAElFTkSuQmCC" InformativeScreenshot="99f4767dbe5a689a2d4d34061cd36979.png" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="335, 306, 140, 39" ElementType="Text" FriendlyName="'On Us Check'" FullSelectorArgument="&lt;ctrl name='On Us Check' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='On Us Check' role='text' automationid='' check:text='On Us Check' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Accept'" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="693, 830, 55, 21" ElementType="Text" FriendlyName="'Accept'" FullSelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;&lt;ctrl name='Accept' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;&lt;ctrl name='Accept' role='text' automationid='' check:text='Accept' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADsAAAAZCAYAAACPQVaOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAOeSURBVFhH7VbfS5NRGD775ibOLtT8FVndSKUESnohClrgTShh0E+NBjqFQAkSlbBY6GiJBpaC5BaDhF2ERJYXwshUUjR/hBSaeva3PL3fdr7t++Y33aKLlbt4Ls75nu+c87znfZ/3ML/fj6OCpNj/FUmx/yuSYmVse23IYAyGnPt4t6PPSVTsLE/CXt8Fb8R8FLHb8NoyYMjPRx5Lww3Xpg4nUcHhs5eApVgxEfFNVyzfGEODyYDCrhfoLmQw1gxhUYeXmIhLLMfGaB2YIRcdk3uY7i4Ek4rQOxPJC3LX3j/H7YpcWCjlGUtHXuVdDE6tx8nx4+fn12g5iMN9sJcwpFg9mHc142KmiXhmZBVfQ//7FewEeLvw3JH/DyPFOhFaY79YvgBnJdVqbgcmacx9dpQwA3LuvxMLKuBY9TRSmjOYT1/Cg0E3XAPtqC6gQ6RWwDkbO+f722YUmBiOlTahb4Q4r57i9gULBfwkrBNCsBAbKC3zadQ/GiGeHdfP0lrEs3nlUuP4+sGFZzfPgBlr0Ol2483HpeD/hH1iFXGFPdPBOWWTSKPamw6kuHS+B9Oqeb46ijpLFkqffIqLk9YwihX1+nwVo3UmSEW9mAmMg+fQBEDGryk8lPdQeCQ4xjTWS1uOBWclpYTWqPiXPpQxCeWO2dBcJGLh7M30opg4Ja0v4aabCEPckFQOh5wBQqxU7sCsZg0hTqJMmVeNDxW77YUtQx2lIPiCE5WUimqj2n17DyaWQlEO8yIRE8dzR1Nj+2GhFCVuqGbDNahdQ9knRrFKb9XflKC6ce0G+vhbnAAOFSuCEpNYvoGxBip26RysQ+p0CmK88zLdUtiooqYo/4K+snScaBzHagycb1MPcUbtEdEgxBprh7Gs+SbEGWsxvKwaHySWb5Bp0O1F7akixVnaDbg2aRzFfH7NPCaDEwLj4Biym+BZD3Nkg3LdzIQ5+xbG1+SxMCiq4ae+nTDvB50rT33uQ8Xqm5AWwryYETVDizQOt5XU4lvBljHQjAsWOvhJG7xyQOLksGOlaJXbE7WeluoCyqRUVDh8wZaniBW8pj659fTgimhjjlAAOJYGa8i1j6O2a0Sn9SjRPeQdvN+oIh4M5iwUX+vHlPqG/oRDj4XMU1Voc89hS+EIsVK5HW+GruJc4FFBj4+qNrjntlRr0TnXvGi/mEnBIn6FE/NiXmNQCY2Q2MjWEzuSYhMSSbHx4d8R+xdwhMT68RvZym9uYz0dtgAAAABJRU5ErkJggg==" InformativeScreenshot="4681fba66a5d1caffbfdaba651649128.png" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="661, 818, 120, 46" ElementType="Button" FriendlyName="'Accept'" FullSelectorArgument="&lt;ctrl name='Accept' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Accept' role='push button' automationid='' check:text='Accept' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAAyCAYAAACeTL+iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAARQSURBVHhe7ZzfS1tnGMffnJiIsRfqWu2oa29kXaWgtF6IhbqCN8MyLKw/HQvYtFBombRYGW6k2NC0aKGbQplJCTSQiyJlbl4IYbbKDLZaR9motR7/Bf+F756TnJOcxBN7UoZN8j4Xn4s355uTw/mc93mf91xEbG5ugpEHFi4ZaeH9/f1MGWMpPBqNIpFIMGWE5jSv8IWFBWxsbDBlhOaUhUsEC5cMFi4ZLFwyWLhksHDJYOGSwcIlg4VLBguXDBYuGSxcMli4ZJSM8NWYDzVCwLHnCp6sWWeKlbXFSfhPDiBmcWynKRHhq4j5auDYuxcNogqnQ68tMsWKiri/BaLCi6jl8Z2lJISrKw/R43KgaeA+bjYJODtHsWCRK05YeIGoWBnvhnDU49rkOqZvNkEohzA0Y51dfnoX59rr4aHyL0Q1Gjq+xcjUqwIzG/j3z19xcbuMGoe/RaDCG8FcqA9Hal2Uc6Ou+RRuP32BtWTuHSLnte9nqPBGM+f4CBS/cHUewQ5au+uvYZLGatyPFuHAnitP9JtqoGIpcoFKvoB7/5f4fiSM0L2rON5IIirbEZy1n/n7cR8aXQK7WnsxPEaZX27h3GEPPXT74I3q0nXhyWXGvR8nfxijnB/ffE7nopwvpi07Kv76LYQ7Zw5AODtxIxzGo98Tqe9/JIpeuCG4aXA69Zlxo3Obt/XpZLlXvhjEtOlzdWkc3Z46tP70R0GZqp5xvDCfX13CeLcLyqEhzCTHqevIegg03k7huvYbRo6kc0m3jVUJVzEf7KDymN28qc+GcVQoaAvMpj/LxU5mfWYIzZRpufQzwjQjM+gzVWlDQKsEunClLYDZrHPoghWqGHOmMQu3wWoMvhrzbEmhzgfRQWXZ3Ly9e/wdXKKCZlsml4utTOR81pq7FQ+Va8qm1/Cta3LqHMbvsHDbGHtv6xtPmGZ+9k225v/KJHmvcP3BYOE2UVfwsIcaIOUgvKPm0ppi4sYJmq2Z5i1vuVafYfhoNT69MIElG5mXU9dxwNwz5EMX7ux6gMWsY7pgZxceLJrGLHx71BVqpGgW591z6+VeVJ1G6DWN8zRkb2d+pKZPl1xAxrG7F5FXmYzWtIXO1MK9+ywmlrWx3rTRmn4rvpbJ/UPX1WC+bhZuA+vGLBu9oRNOdI5q15nZclU2n01tp+714bCH5O3zIaY9FAVmxK5WXNK2brQtu3i8kSpKJdoD8dR20BCu53qHtW3ZIL7St3iB9EOgIjHSSd38J+gaGONtmSXGLHvPe/OtzVvOSxV3HZpP3caUeaZ+SEa4UfvZMVwOP8cbI6MLV9r8eDT6NQ4mX7xUo+HYZYSfvzGdi65zOYarR2rpgaF8exBzpmM7TZHO8BIgLTx3W1bcsPAPhYVLBguXDBbOlAIsXDJYuGSwcMlg4ZLBwiWDhUsGC5cMFi4ZLFwyWLhkbCuc/3qz/Nj2rzeZ8mWLcEYOWLhUbOI/LUUuawu+rG8AAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Transaction #'" sap:VirtualizedContainerService.HintSize="334,168" sap2010:WorkflowViewState.IdRef="NGetText_1">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="781, 188, 70, 24" ElementType="Text" FriendlyName="'745384'" FullSelectorArgument="&lt;ctrl automationid='transnrlabel' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='transnrlabel' role='text' /&gt;" InformativeScreenshot="51c4cf09ac7242588698b3e70817d258.png" ScopeSelectorArgument="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" SearchSteps="Selector, FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="641, 188, 132, 24" ElementType="Text" FriendlyName="'Transaction #'" FullSelectorArgument="&lt;ctrl name='Transaction #:' role='text' /&gt;&lt;ctrl name='Transaction #:' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Transaction #:' role='text' /&gt;&lt;ctrl name='Transaction #:' role='text' automationid='' check:text='Transaction #:' /&gt;" ImageBase64="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" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+              <uix:NGetText.Text>
+                <OutArgument x:TypeArguments="x:String">[TransactionNumber]</OutArgument>
+              </uix:NGetText.Text>
+            </uix:NGetText>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[TransactionNumber]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="190, 190, 937, 941" FilePath="C:\Users\fdias\Documents\UiPath\DoubleUI\doubleui.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGqSURBVGhD7ZbLSsNQEIajiKIooig+qnfx1oXQtRBwKYivIeIrtIn7PkCa9JLN2CkZSZsxPacz2BM4P3w00NJ+/3/OooGPj4+Pjw+l9dSGJlDoVsN9+L/5+PyaUvdc6FZDX7JKXt/ep9Q9F7rV4Ju9Xs9pFhbI89wJxuPxDKPRaIr4BLgf0+YvebUCwWlHzLw0USdvXOA5fPl9LVMucNL6huPHGI4eYji8j+HgLob92wj2biLYnbBzHcH2VQRbl13YnLBx0YX18w6snc0WCMPQCJQfDod6JyCR505g0fIor1pAIl8uwK3NYVXA5ApJ5MsFTJe3KlAHFZDIIyTPrc2hXkAij9gujwwGA70rJJFHSJxbmwPljQvUQQUk8ojt8uoFJPIIyXNrc1gVMLlCEnnEdnkkyzK9E5DIIyTOrc2B8qoFJPKI7fJWBUyukEQeIXlubQ71E5DII/OrI3XLI2ma6hWQyCMkza2NcPKqBaTYLu9sARt55wrYyvf7fXcKLCPvbAFTebUCBP0hW/aPma28aoFVyKsVWJV8kiSLCzSBQtfHx8fHx6fpCYIfg6/oJyw/6/MAAAAASUVORK5CYII=" InformativeScreenshot="bd7ece519ae8861cf6b0bf48b03a9441.png" Selector="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

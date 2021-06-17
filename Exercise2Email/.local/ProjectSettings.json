@@ -1,0 +1,1 @@
+{"ProjectBreakpoints":"{\"Value\":{\"Main.xaml\":[{\"ConditionalExpression\":null,\"ActionExpression\":null,\"ExpectedHitCounter\":null,\"ShouldContinueAfterAction\":false,\"IsEnabled\":false,\"ActivityIdRef\":\"SendMail_1\",\"ActivityId\":\"1.2\",\"ActivityName\":\"Send SMTP Mail Message\"}]}}","ProjectWatches":"{\"Value\":[]}","OpenedDocuments":"[\"Main.xaml\"]"}

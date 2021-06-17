@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "KdToK3KuKG5SbOCgluBTTMMPVt+F6e/GxdbHBSsqMpafrLA0n6Y+S7YwsW0zrkcDYWiaIokeVDMLBnARlfw2gA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fdias\\Documents\\UiPath\\RetryScopeLesson1\\RetryScope\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\fdias\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath\\19.7.7128.27029\\uipath.19.7.7128.27029.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.ocr.contracts\\2.0.0\\uipath.ocr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.system.activities\\19.7.0\\uipath.system.activities.19.7.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.uiautomation.activities\\19.7.0\\uipath.uiautomation.activities.19.7.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.vision\\1.6.1\\uipath.vision.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

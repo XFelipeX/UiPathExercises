@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "mcfKQhV9fDu2lc/pogQtxAJjWXsESdFkfA71do2rRuTokQMBLxm1vfyeKYY3zGp81go4aLua7jqL4tbBVj9/5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fdias\\Documents\\UiPath\\Exercicio1Excel\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\fdias\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\bouncycastle\\1.8.1\\bouncycastle.1.8.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\caliburn.micro\\3.0.1\\caliburn.micro.3.0.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\caliburn.micro.core\\3.0.1\\caliburn.micro.core.3.0.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.10\\microsoft.rest.clientruntime.2.3.10.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\npoi\\2.2.1\\npoi.2.2.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\sharpziplib\\0.86.0\\sharpziplib.0.86.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath\\10.0.6913.22031\\uipath.10.0.6913.22031.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.excel.activities\\2.4.6884.25683\\uipath.excel.activities.2.4.6884.25683.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.mail.activities\\1.2.6863.29868\\uipath.mail.activities.1.2.6863.29868.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.system.activities\\18.4.1\\uipath.system.activities.18.4.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.uiautomation.activities\\18.4.2\\uipath.uiautomation.activities.18.4.2.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.vision\\1.2.0\\uipath.vision.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

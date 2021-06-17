@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "cDqyVtPxnDb7dxLujLU68Vqhk8jfRJ4M8uYENcmmM0AQ5OERY7FQ54dR1upujYiktG/4ycU7wfBNNPHvkZ+rqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fdias\\Documents\\UiPath\\resolucaoEmail2\\E-mail Automation - Practice 2\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\fdias\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\bouncycastle\\1.8.1\\bouncycastle.1.8.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\caliburn.micro\\3.0.1\\caliburn.micro.3.0.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\caliburn.micro.core\\3.0.1\\caliburn.micro.core.3.0.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.10\\microsoft.rest.clientruntime.2.3.10.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\newtonsoft.json\\10.0.3\\newtonsoft.json.10.0.3.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\npoi\\2.2.1\\npoi.2.2.1.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\sharpziplib\\0.86.0\\sharpziplib.0.86.0.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath\\9.0.6877.24355\\uipath.9.0.6877.24355.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.excel.activities\\2.4.6856.17931\\uipath.excel.activities.2.4.6856.17931.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.mail.activities\\1.1.6562.21018\\uipath.mail.activities.1.1.6562.21018.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.pdf.activities\\1.2.6863.34697\\uipath.pdf.activities.1.2.6863.34697.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.system.activities\\18.3.6864.20561\\uipath.system.activities.18.3.6864.20561.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.uiautomation.activities\\18.3.6877.28298\\uipath.uiautomation.activities.18.3.6877.28298.nupkg.sha512",
+    "C:\\Users\\fdias\\.nuget\\packages\\uipath.vision\\1.1.0\\uipath.vision.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\fdias\\Documents\\UiPath\\resolucaoEmail2\\E-mail Automation - Practice 2\\.local",
+      "message": "Lesson11-Practice2-Answers depends on UiPath.System.Activities (>= 18.3.6858.31352) but UiPath.System.Activities 18.3.6858.31352 was not found. An approximate best match of UiPath.System.Activities 18.3.6864.20561 was resolved.",
+      "libraryId": "UiPath.System.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win7-x86"
+      ]
+    }
+  ]
+}

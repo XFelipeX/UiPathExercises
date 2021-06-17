@@ -1,0 +1,82 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="678,692" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,627.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Nova guia" sap:VirtualizedContainerService.HintSize="434,234.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQZSURBVGhD7ZgJT+JAHEf9SPsBdxNvRUAO5fQ+P5AxcbPGLDFGQVA8snLz3/lNO+3QDqVlhmw2ockLLSby3nQo0y7Mt/k24+3y8pIuLi445+fndAbOzuj0FJzSyQk4oePjY87R0REdgsNDOgAHB7QP9vdpj1He2+OUymUqlcr4WzOVSn2zP878BvHBYBBI30vfxtnvu+/x/T4Nh0PC4FQqFYTNLkIE9Ho9TlfQdel0uxLsuMNeATtu2/vtdofvt/hrh0cg4OPjg37/ruCszCYC02YwGAYGdDUCPj8/6e3tje7u7jCtzEdgzk86AzoB7+/v1Gw26eXlhX7d3lKxWDIbgS/sLKcQ5F9fX6nRaFCtVqObm5+ULxTMReBqgwBHfKoAS95iNAAjX6/X6fn5marVKj0+PtL19TXl8nkzEbhU+gIk+UnTh2OPvioA4hh5If/w8ED39/d0dXVFuVyuaWtMv+E67wSMiFu48tMFJBKJsaQzWbI1pt/wI8UDPOKB8sAOwL53/vNjRo2N/lO1JlGlpyd2Jhj1eoNSmYx+AH5d/QGW4NgAduyMuDT63gAcj9KmVqtNX4xer0+ptNGA7hhxMHn0LYICmLwnYDud1g/A2gZLAr+0QC3Pgai9D8mwo+8EpFL6AViYqQM84qDrCvNLJxMbkY8YkNw2EcBWlFYAExYIYRlp5HEs5C3CyfsDtvUDsCTGKtInLLDPyDh5CEYdfRGQSJoIYGt5ZYBH3JK3Je3j0PJjAuLJpH4Abka83wFZGjijDuz3wskDv7wTkDARwO6icAZkYYF1NmxB6X2IRZGfaQBuA/1TyBWTxb3yfJ+LqlBPHTlgK57QD8D9K9YtjjDwSHvFJ488GC8PsHSPxeOmAtRTSMioxHXkAQ/YMhCApwc9dgbwwRAUrz7wvsSosMxk+a+vFl/9bm5tGQgola0ppJIGTCqcOLDkgwNa9EcExAwEFEsl/3dAgVpYwKRDybe5vAjYiMUMBBTHB6hlvbjyKuERbHkRsL5pIKBQLDrfgWiEH3WOJO8GbBoIKEQNsMU15J2ADQMB+UIhZMAU4kAhLwLW1jf0A3L5cQGSsCQdWhwoxAUIWDUTkLcDJFmPcCRpTitQHvCAtXX9gN0cC2DrEj1hCYWsCgSsmAnI8QClTCQmj7oMD1hd0w/Y2dUNiCYuQMCymYDdKQOmExfwgJVV/YDsTpQAS1pHXICAJTMBOwEBrrAJaRkesLyiH5DJIqA3ImpaVgUCFk0EpLNZ/s9UHzJL8Jk/lpYNBGT+8wA84sY/+xd8X1wyEJDO8KfEeNCKZ5V43IcnZnjohMceAE8PcAOOe1jcBuJOCjcjWM9jSYxVJRZmWNtgeYBfWPxI4TqPSyWuNvjCYs5j1AHkjQTMt/kWtC0s/AW5LGYfC1SkPgAAAABJRU5ErkJggg==" InformativeScreenshot="b64f5c6784de216e42e6517d03840659.png" Selector="&lt;html app='msedge.exe' url='https://www.rpasamples.com/passwordgenerator' /&gt;" Url="https://www.rpasamples.com/passwordgenerator" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
